@@ -5,3 +5,6 @@
 vim.keymap.set("n", "<leader>gj", "<cmd>GoTagAdd json<cr>")
 vim.keymap.set("n", "<leader>pu", "<cmd>-30<cr>")
 vim.keymap.set("n", "<leader>pd", "<cmd>+30<cr>")
+vim.keymap.set("n", "<leader>hp", "<cmd>Gitsigns preview_hunk<cr>")
+vim.keymap.set("n", "<leader>hd", "<cmd>Gitsigns diffthis<cr>")
+vim.keymap.set("n", "<leader>hb", "<cmd>Gitsigns blame_line<cr>")
